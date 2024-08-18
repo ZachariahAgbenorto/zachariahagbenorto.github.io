@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script/myscript.js"></script>
+</head>
+
+<body>
+    <header class="header clearfix">
+
+        <!--NAVIGATION LINKS-->
+        <nav class="topnav" id="mytopnav">
+            <a href="#contact_div" class="nav_link">Contact</a>
+            <a href="#portfolio_div" class="nav_link">Portfolio</a>
+            <a href="#resume_div" class="nav_link">Resume</a>
+            <a href="#about_div" class="nav_link">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <ion-icon name="menu-outline"></ion-icon>
+            </a>
+        </nav>
+
+        <div class="light_dark_mode_button">
+            <label id="theme-toggle-button">
+                <input type="checkbox" id="toggle" onclick="myLightFunction()">
+                <svg viewBox="0 0 69.667 44" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(3.5 3.5)" data-name="Component 15 – 1" id="Component_15_1">
+
+
+                        <g filter="url(#container)" transform="matrix(1, 0, 0, 1, -3.5, -3.5)">
+                            <rect fill="#83cbd8" transform="translate(3.5 3.5)" rx="17.5" height="35" width="60.667"
+                                data-name="container" id="container"></rect>
+                        </g>
+
+                        <g transform="translate(2.333 2.333)" id="button">
+
+                            <g data-name="sun" id="sun">
+                                <g filter="url(#sun-outer)" transform="matrix(1, 0, 0, 1, -5.83, -5.83)">
+                                    <circle fill="#f8e664" transform="translate(5.83 5.83)" r="15.167" cy="15.167"
+                                        cx="15.167" data-name="sun-outer" id="sun-outer-2"></circle>
+                                </g>
+                                <g filter="url(#sun)" transform="matrix(1, 0, 0, 1, -5.83, -5.83)">
+                                    <path fill="rgba(246,254,247,0.29)" transform="translate(9.33 9.33)"
+                                        d="M11.667,0A11.667,11.667,0,1,1,0,11.667,11.667,11.667,0,0,1,11.667,0Z"
+                                        data-name="sun" id="sun-3"></path>
+                                </g>
+                                <circle fill="#fcf4b9" transform="translate(8.167 8.167)" r="7" cy="7" cx="7"
+                                    id="sun-inner"></circle>
+                            </g>
+
+
+                            <g data-name="moon" id="moon">
+                                <g filter="url(#moon)" transform="matrix(1, 0, 0, 1, -31.5, -5.83)">
+                                    <circle fill="#cce6ee" transform="translate(31.5 5.83)" r="15.167" cy="15.167"
+                                        cx="15.167" data-name="moon" id="moon-3"></circle>
+                                </g>
+                                <g fill="#a6cad0" transform="translate(-24.415 -1.009)" id="patches">
+                                    <circle transform="translate(43.009 4.496)" r="2" cy="2" cx="2"></circle>
+                                    <circle transform="translate(39.366 17.952)" r="2" cy="2" cx="2" data-name="patch">
+                                    </circle>
+                                    <circle transform="translate(33.016 8.044)" r="1" cy="1" cx="1" data-name="patch">
+                                    </circle>
+                                    <circle transform="translate(51.081 18.888)" r="1" cy="1" cx="1" data-name="patch">
+                                    </circle>
+                                    <circle transform="translate(33.016 22.503)" r="1" cy="1" cx="1" data-name="patch">
+                                    </circle>
+                                    <circle transform="translate(50.081 10.53)" r="1.5" cy="1.5" cx="1.5"
+                                        data-name="patch"></circle>
+                                </g>
+                            </g>
+                        </g>
+
+
+                        <g filter="url(#cloud)" transform="matrix(1, 0, 0, 1, -3.5, -3.5)">
+                            <path fill="#fff" transform="translate(-3466.47 -160.94)"
+                                d="M3512.81,173.815a4.463,4.463,0,0,1,2.243.62.95.95,0,0,1,.72-1.281,4.852,4.852,0,0,1,2.623.519c.034.02-.5-1.968.281-2.716a2.117,2.117,0,0,1,2.829-.274,1.821,1.821,0,0,1,.854,1.858c.063.037,2.594-.049,3.285,1.273s-.865,2.544-.807,2.626a12.192,12.192,0,0,1,2.278.892c.553.448,1.106,1.992-1.62,2.927a7.742,7.742,0,0,1-3.762-.3c-1.28-.49-1.181-2.65-1.137-2.624s-1.417,2.2-2.623,2.2a4.172,4.172,0,0,1-2.394-1.206,3.825,3.825,0,0,1-2.771.774c-3.429-.46-2.333-3.267-2.2-3.55A3.721,3.721,0,0,1,3512.81,173.815Z"
+                                data-name="cloud" id="cloud"></path>
+                        </g>
+
+
+                        <g fill="#def8ff" transform="translate(3.585 1.325)" id="stars">
+                            <path transform="matrix(-1, 0.017, -0.017, -1, 24.231, 3.055)"
+                                d="M.774,0,.566.559,0,.539.458.933.25,1.492l.485-.361.458.394L1.024.953,1.509.592.943.572Z">
+                            </path>
+                            <path transform="matrix(-0.777, 0.629, -0.629, -0.777, 23.185, 12.358)"
+                                d="M1.341.529.836.472.736,0,.505.46,0,.4.4.729l-.231.46L.605.932l.4.326L.9.786Z"
+                                data-name="star"></path>
+                            <path transform="matrix(0.438, 0.899, -0.899, 0.438, 23.177, 29.735)"
+                                d="M.015,1.065.475.9l.285.365L.766.772l.46-.164L.745.494.751,0,.481.407,0,.293.285.658Z"
+                                data-name="star"></path>
+                            <path transform="translate(12.677 0.388) rotate(104)"
+                                d="M1.161,1.6,1.059,1,1.574.722.962.607.86,0,.613.572,0,.457.446.881.2,1.454l.516-.274Z"
+                                data-name="star"></path>
+                            <path transform="matrix(-0.07, 0.998, -0.998, -0.07, 11.066, 15.457)"
+                                d="M.873,1.648l.114-.62L1.579.945,1.03.62,1.144,0,.706.464.157.139.438.7,0,1.167l.592-.083Z"
+                                data-name="star"></path>
+                            <path transform="translate(8.326 28.061) rotate(11)"
+                                d="M.593,0,.638.724,0,.982l.7.211.045.724.36-.64.7.211L1.342.935,1.7.294,1.063.552Z"
+                                data-name="star"></path>
+                            <path transform="translate(5.012 5.962) rotate(172)"
+                                d="M.816,0,.5.455,0,.311.323.767l-.312.455.516-.215.323.456L.827.911,1.343.7.839.552Z"
+                                data-name="star"></path>
+                            <path transform="translate(2.218 14.616) rotate(169)"
+                                d="M1.261,0,.774.571.114.3.487.967,0,1.538.728,1.32l.372.662.047-.749.728-.218L1.215.749Z"
+                                data-name="star"></path>
+                        </g>
+                    </g>
+                </svg>
+            </label>
+        </div>
+        </div>
+    </header> <br>
+
+    <div class="sidebar">
+
+        <div class="profile_picture"><!--PLACE FOR PROFILE PICTURE AND NAME-->
+            <img alt="My profile picture" src="images/profile_picture.png">
+        </div>
+
+        <p>Zachariah Agbenorto <br><span>Teacher, Graphic designer, Web developer</span> </p><br><br>
+
+        <div class="social_media">
+            <a href="#facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#x"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://pin.it/2Choit5oO" target="_blank"><ion-icon name="logo-pinterest"></ion-icon></a>
+        </div>
+    </div>
+
+    <main class="content">
+
+        <div class="about" id="about_div">
+            <h2>Profile Statement</h2><br>
+            <p>I am a young and goal oriented gentleman who strives for the achievement of set goals and targets. For my
+                personal life, I'm quiet but could be very open around close friends and family. Professionally I like
+                to build up on myself and learn new skills. I also like to build a good relationship with my colleagues,
+                clients and people above me who are more knowledgeable than I am so as to learn from them.
+                My world is not that of a competition but I get inspired and encouraged by the growth and achievements
+                of others to keep progressing in all facets of my life.
+            </p><br>
+            <a href="#" class="learn_more">Learn more</a><br><br>
+            <div class="services">
+                <h2>My Services</h2><br>
+                <ol>
+                    <li>Logo design</li>
+                    <li>Flyer design</li>
+                    <li>Posters</li>
+                    <li>Cloth pattern design</li>
+                    <li>Web development</li>
+                    <li>Graphic design training</li>
+                    <li>Web development training</li>
+                </ol>
+
+            </div><br>
+
+            <div class="testimonials" id="testimonials_div">
+                <h2>Testimonials</h2><br>
+                <div class="testimonial_container">
+                    <div class="testimonial_card card1">
+                        <div class="testimonial_pic_name">
+                            <img src="images/profile_picture.png">
+                        </div>
+                        <div class="testimonial_text_content">
+                            <h2>Priscilla</h2>
+                            <p>The name of the Lord is a strong tower. The righteous run
+                                into it and is saved. Zachariah is one of the best people you could find on earth</p>
+                        </div>
+                    </div>
+                    <div class="testimonial_card card2">
+                        <div class="testimonial_pic_name">
+                            <img src="images/profile_picture.png">
+                        </div>
+                        <div class="testimonial_text_content">
+                            <h2>Grace</h2>
+                            <p>The name of the Lord is a strong tower. The righteous run
+                                into it and is saved. Zachariah is one of the best people you could find on earth</p>
+                        </div>
+                    </div>
+                    <div class="testimonial_card card3">
+                        <div class="testimonial_pic_name">
+                            <img src="images/profile_picture.png">
+                        </div>
+                        <div class="testimonial_text_content">
+                            <h2>Benjamin</h2>
+                            <p>The name of the Lord is a strong tower. The righteous run
+                                into it and is saved. Zachariah is one of the best people you could find on earth</p>
+                        </div>
+                    </div>
+                    <div class="testimonial_card card4">
+                        <div class="testimonial_pic_name">
+                            <img src="images/profile_picture.png">
+                        </div>
+                        <div class="testimonial_text_content">
+                            <h2>Irene</h2>
+                            <p>The name of the Lord is a strong tower. The righteous run
+                                into it and is saved. Zachariah is one of the best people you could find on earth</p>
+                        </div>
+                    </div>
+                    <div class="testimonial_card card5">
+                        <div class="testimonial_pic_name">
+                            <img src="images/profile_picture.png">
+                        </div>
+                        <div class="testimonial_text_content">
+                            <h2>Rolland</h2>
+                            <p>The name of the Lord is a strong tower. The righteous run
+                                into it and is saved. Zachariah is one of the best people you could find on earth</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><br><br>
+
+
+
+        <div class="resume" id="resume_div">
+            <div class="work_experience">
+                <h2>Work Experiences</h2><br>
+                <div style="overflow-x: auto;">
+                    <table>
+                        <tr>
+                            <strong>
+                                <th class="alleft coloryellow">Institution</th>
+                                <th>Role</th>
+                                <th>Duration</th>
+                            </strong>
+                        </tr>
+                        <tr>
+                            <td class="alleft">Sims Technologies Ltd.</td>
+                            <td>Sales Personnel</td>
+                            <td>2018 till date</td>
+                        </tr>
+                        <tr>
+                            <td class="alleft">Holy Shepherd School Ltd.</td>
+                            <td>Teacher</td>
+                            <td>2016 - 2018</td>
+                        </tr>
+                    </table>
+                </div>
+            </div><br><br>
+
+            <div class="education">
+                <h2>Education</h2><br>
+                <div style="overflow-x: auto;">
+                    <table>
+                        <tr>
+                            <strong>
+                                <th class="alleft coloryellow">Institution</th>
+                                <th>Year Commenced</th>
+                                <th>Year Completed</th>
+                            </strong>
+                        </tr>
+                        <tr>
+                            <td class="alleft">Akatsi College of Education</td>
+                            <td>2021</td>
+                            <td>Till date</td>
+                        </tr>
+                        <tr>
+                            <td class="alleft">Nkawkaw Senior High School</td>
+                            <td>2014</td>
+                            <td>2017</td>
+                        </tr>
+                        <tr>
+                            <td class="alleft">Babyland International School</td>
+                            <td>2011</td>
+                            <td>2013</td>
+                        </tr>
+                        <tr>
+                            <td class="alleft">Abundant Grace Preparatory School</td>
+                            <td>2011</td>
+                            <td>2003</td>
+                        </tr>
+                    </table>
+                </div>
+            </div><br><br>
+
+            <div class="Skills">
+                <h2>My skills</h2><br>
+                <p>The level of the green bar indicates my proficiency level with a particular skill or program</p><br>
+                <label for="thinking">Critical thinking:</label><br>
+                <meter id="thinking" value="7" min="0" max="10">7 out of 10</meter><br>
+                <label for="problem_solving">Problem solving:</label><br>
+                <meter id="problem_solving" value="6" min="0" max="10">6 out of 10</meter><br>
+                <label for="com_skills">Communication skills:</label><br>
+                <meter id="com_skills" value="5" min="0" max="10">5 out of 10</meter><br>
+                <label for="html">HTML:</label><br>
+                <meter id="html" value="8" min="0" max="10">8 out of 10</meter><br>
+                <label for="css">CSS:</label><br>
+                <meter id="css" value="2" min="0" max="10">2 out of 10</meter><br>
+                <label for="javascript">Javascript:</label><br>
+                <meter id="javascript" value="2" min="0" max="10">2 out of 10</meter><br>
+                <label for="bootstrap">Bootstrap:</label><br>
+                <meter id="bootstrap" value="2" min="0" max="10">2 out of 10</meter><br>
+                <label for="git">Git:</label><br>
+                <meter id="git" value="4" min="0" max="10">4 out of 10</meter><br>
+                <label for="python">Python:</label><br>
+                <meter id="python" value="3" min="0" max="10">3 out of 10</meter><br>
+                <label for="photoshop">Adobe Photoshop:</label><br>
+                <meter id="photoshop" value="8" min="0" max="10">8 out of 10</meter><br>
+                <label for="illustrator">Adobe Illustrator:</label><br>
+                <meter id="illustrator" value="5" min="0" max="10">5 out of 10</meter><br>
+                <label for="indesign">Adobe InDesign:</label><br>
+                <meter id="indesign" value="4" min="0" max="10">4 out of 10</meter><br>
+                <label for="word">Microsoft Word:</label><br>
+                <meter id="word" value="8" min="0" max="10">8 out of 10</meter><br>
+                <label for="excel">Microsoft Excel:</label><br>
+                <meter id="excel" value="5" min="0" max="10">5 out of 10</meter><br>
+                <label for="powerpoint">Microsoft PowerPoint:</label><br>
+                <meter id="powerpoint" value="5" min="0" max="10">5 out of 10</meter><br>
+                <label for="social_management">Social Media Management:</label><br>
+                <meter id="social_management" value="5" min="0" max="10">5 out of 10</meter><br>
+            </div>
+
+        </div>
+
+
+
+        <div class="portfolio" id="portfolio_div">
+
+            <h2>Logo designs</h2>
+            <div class="groupingcontainer logos">
+                <div class="folio_container">
+                    <img src="images/logo1.jpg" alt="graphic" class="image">
+                    <div class="overlay">AZC logo</div>
+                </div>
+
+                <div class="folio_container">
+                    <img src="images/Logo2.png" alt="graphic" class="image">
+                    <div class="overlay">Laundry service</div>
+                </div>
+
+                <div class="folio_container">
+                    <img src="images/logo3.jpg" alt="graphic" class="image">
+                    <div class="overlay">Kids Clothing</div>
+                </div>
+            </div>
+
+            <h2>Posters & Flyers</h2>
+            <div class="groupingcontainer flyers">
+                <div class="folio_container">
+                    <img src="images/flyer1.jpg" alt="graphic" class="image">
+                    <div class="overlay">Casual flyers</div>
+                </div>
+
+                <div class="folio_container">
+                    <img src="images/flyer2.jpg" alt="graphic" class="image">
+                    <div class="overlay">Beauty pub flyer</div>
+                </div>
+
+                <div class="folio_container">
+                    <img src="images/flyer3.jpg" alt="graphic" class="image">
+                    <div class="overlay">Laundry Flyer</div>
+                </div>
+            </div>
+
+            <h2>Websites</h2>
+            <div class="groupingcontainer websites">
+                <div class="folio_container">
+                    <img src="images/website1.png" alt="graphic" class="image">
+                    <div class="overlay">Portfolio website</div>
+                </div>
+
+                <div class="folio_container">
+                    <img src="images/website2.png" alt="graphic" class="image">
+                    <div class="overlay">Restaurant website</div>
+                </div>
+
+                <div class="folio_container">
+                    <img src="images/website3.png" alt="graphic" class="image">
+                    <div class="overlay">Blog site</div>
+                </div>
+            </div>
+        </div><br><br>
+
+
+        <div class="contact" id="contact_div">
+
+            <div class="social_handles call">
+                <a href="#"><ion-icon name="call"></ion-icon></a>
+                <div>
+                    <h2>Mobile</h2><br>
+                    <p>To speak to us in person<br>Call: 0545348169</p>
+                </div>
+            </div>
+
+            <div class="social_handles whatsapp">
+                <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                <div>
+                    <h2>WhatsApp</h2><br>
+                    <p>To speak to us in person<br>Call: 0545348169</p>
+                </div>
+            </div>
+
+            <div class="social_handles mail">
+                <a href="mailto:zachariahagbenorto@gmail.com"><ion-icon name="mail-unread"></ion-icon></a>
+                <div>
+                    <h2>Mail</h2><br>
+                    <p>To speak to us in person<br>Call: 0545348169</p>
+                </div>
+            </div>
+
+            <div class="social_handles facebook">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <div>
+                    <h2>Facebook</h2><br>
+                    <p>To speak to us in person<br>Call: 0545348169</p>
+                </div>
+            </div>
+
+            <div class="social_handles instagram">
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <div>
+                    <h2>Instagram</h2><br>
+                    <p>To speak to us in person<br>Call: 0545348169</p>
+                </div>
+            </div>
+
+            <div class="social_handles twitter_x">
+                <a href="https://x.com/zachariahagben1"><ion-icon name="logo-twitter"></ion-icon></a>
+                <div>
+                    <h2>X</h2><br>
+                    <p>To view my X profile, follow, like and comment on my posts, search <a
+                            href="https://x.com/zachariahagben1">zachariahagben1</a> on X</p>
+                </div>
+            </div>
+
+            <div class="social_handles linkedin">
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <div>
+                    <h2>Linkedin</h2><br>
+                    <p>To speak to us in person<br>Call: 0545348169</p>
+                </div>
+            </div>
+
+            <div class="social_handles pinterest">
+                <a href="https://pin.it/2Choit5oO"><ion-icon name="logo-pinterest"></ion-icon></a>
+                <div>
+                    <h2>Pinterest</h2><br>
+                    <p>To speak to us in person<br>Call: 0545348169</p>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <div class="footer">zachariahagbenorto&COPY;2024</div>
+    </main>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

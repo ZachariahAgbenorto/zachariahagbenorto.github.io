@@ -1,0 +1,61 @@
+FOR MY PORTFOLIO WEBSITE
+
+PAGES ARE: About, Resume, Portfolio, Contact
+BACKGROUND COLOR FOR ALL PAGES - #131620, RGB(19, 22, 32), HSL(227°, 27%, 10%)
+COLOR FOR ICONS - #16faaa, RGB(22, 250, 170), HSL(159°, 96%, 53%)
+COLOR FOR ACTIVE PAGES - #16faaa, RGB(20, 250, 170), HSL(159°, 96%, 53%)
+
+
+
+
+TOP MOST BAR IS FOR NAVIGATION BUT BUTTONS SHOULD BE ALIGNED RIGHT
+
+
+USE LEFT SIDE BAR FOR BIO DATA SHOULD BE PRESENT ON ALL PAGES
+MAINTAIN UNIFORMITY AND CONSISTENCY ON ALL PAGES
+
+LEFT SIDEBAR DETAILS
+IMAGE BOX
+NAME
+OCCUPATION
+
+
+About, Resume, Portfolio, Contact should not be separate pages but separate divs or sections on the same page that will be transitioned in if clicked.
+
+
+MAIN CONTENT FOR THE ABOUT PAGE
+
+An introduction passage or profile statement
+Write some testimonials and allow horizontal scrolling
+Services you offer should be present
+
+
+MAIN CONTENT FOR THE RESUME PAGE
+Work experiences
+Educational level / Certificates
+Skills and their levels use meter to indicate skill level
+
+
+
+MAIN CONTENT FOR THE PORTFOLIO PAGE
+Sample works done in divs with description text
+
+
+MAIN CONTENT FOR THE CONTACT PAGE
+Mobile contact
+WhatsApp
+Email
+Facebook
+Instagram
+X
+Linked in
+Pinterest
+
+In divs with box shadows 
+Write some texts in the divs for the various sites
+Logos or Icons should be in rounded rectangles
+Add custom tooltips to the logos or icons
+
+
+
+NOTE: DURATION FOR THIS PROJECT IS 2 WEEKS - CODE FOUR TIMES A WEEK
