@@ -59,3 +59,5 @@ Add custom tooltips to the logos or icons
 
 
 NOTE: DURATION FOR THIS PROJECT IS 2 WEEKS - CODE FOUR TIMES A WEEK
+
+I've been able to push this code from my desktop to my github repository
