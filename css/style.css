@@ -301,10 +301,10 @@ header.header {
 }
 
 main.content {
-    margin-top: 2%;
+    margin-top: 0;
     margin-left: 26%;
     margin-right: 1%;
-    padding: 16px 16px;
+    padding: 0 16px;
     text-align: justify;
 }
 
@@ -394,6 +394,10 @@ main.content {
 
 
 /*Style for the Resume page*/
+.resume {
+    margin-top: -2%;
+}
+
 /*90% width table with border around*/
 table {
     border-collapse: collapse;
@@ -437,6 +441,10 @@ meter::-moz-meter-bar {
 }
 
 /*Portfolio style*/
+.portfolio {
+    margin-top: -4%;
+}
+
 #portfolio_div h2 {
     line-height: 48px;
 }
@@ -498,6 +506,7 @@ meter::-moz-meter-bar {
         ". ."
         ". ."
         ". .";
+    margin-top: -6%;
 }
 
 .social_handles {
