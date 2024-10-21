@@ -1,3 +1,4 @@
+//Toggle between darkmode and light mode
 function myLightFunction() {
     var element = document.body;
     element.classList.toggle("light-mode");
